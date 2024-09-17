@@ -1,0 +1,24 @@
+# Análise de Dados Fictícios do Bitcoin
+
+Este projeto gera e analisa dados fictícios sobre o preço de fechamento e o volume de negociação do Bitcoin ao longo do tempo. O código Python inclui visualizações e análises básicas para ajudar na compreensão das tendências e relações entre os dados.
+
+## Estrutura do Projeto
+
+- **`data_generation.py`**: Script para gerar dados fictícios do Bitcoin.
+- **`visualization_analysis.py`**: Script para realizar a visualização e análise dos dados.
+
+## Funcionalidades
+
+1. **Geração de Dados**: Cria um DataFrame com dados fictícios de preço de fechamento e volume de negociação do Bitcoin.
+2. **Diagnóstico Inicial**: Verifica as principais características dos dados, tipos e valores ausentes.
+3. **Visualização de Dados**:
+   - Gráfico de variação do preço de fechamento ao longo do tempo.
+   - Gráfico do volume de negociação ao longo do tempo.
+4. **Relatório Básico**: Analisa tendências visíveis, a relação entre preço e volume, e fornece conclusões e sugestões.
+
+## Como Executar
+
+1. Certifique-se de ter o Python instalado.
+2. Instale as dependências necessárias:
+   ```bash
+   pip install pandas numpy matplotlib
